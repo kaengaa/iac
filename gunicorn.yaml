@@ -3,6 +3,4 @@
   - name: "Install packages"
     shell: |
       apt install -y apache2
-    with_items:
-      - '{{ packages }}'
     become: yes
